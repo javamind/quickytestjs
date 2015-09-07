@@ -1,0 +1,601 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/ehret_g/.nvm/v0.10.40/bin/node',
+1 verbose cli   '/home/ehret_g/.nvm/v0.10.40/bin/npm',
+1 verbose cli   'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.40
+4 warn package.json quickytestjs@ No README data
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ '/home/ehret_g/Workspace/www/quickytestjs',
+6 verbose install   [ 'jquery',
+6 verbose install     'karma',
+6 verbose install     'karma-chrome-launcher',
+6 verbose install     'karma-cli',
+6 verbose install     'karma-coverage',
+6 verbose install     'karma-jasmine',
+6 verbose install     'karma-junit-reporter',
+6 verbose install     'karma-phantomjs-launcher' ] ]
+7 info preinstall quickytestjs@
+8 verbose readDependencies using package.json deps
+9 verbose already installed skipping jquery@^2.1.4 /home/ehret_g/Workspace/www/quickytestjs
+10 verbose already installed skipping karma@^0.13.3 /home/ehret_g/Workspace/www/quickytestjs
+11 verbose already installed skipping karma-chrome-launcher@^0.2.0 /home/ehret_g/Workspace/www/quickytestjs
+12 verbose already installed skipping karma-cli@^0.1.0 /home/ehret_g/Workspace/www/quickytestjs
+13 verbose already installed skipping karma-coverage@^0.4.2 /home/ehret_g/Workspace/www/quickytestjs
+14 verbose already installed skipping karma-jasmine@^0.3.6 /home/ehret_g/Workspace/www/quickytestjs
+15 verbose already installed skipping karma-junit-reporter@^0.3.2 /home/ehret_g/Workspace/www/quickytestjs
+16 verbose already installed skipping karma-phantomjs-launcher@^0.2.0 /home/ehret_g/Workspace/www/quickytestjs
+17 silly resolved []
+18 info build /home/ehret_g/Workspace/www/quickytestjs
+19 verbose linkStuff [ false, false, false, '/home/ehret_g/Workspace/www' ]
+20 info linkStuff quickytestjs@
+21 verbose linkBins quickytestjs@
+22 verbose linkMans quickytestjs@
+23 verbose rebuildBundles quickytestjs@
+24 verbose rebuildBundles [ '.bin',
+24 verbose rebuildBundles   'angular',
+24 verbose rebuildBundles   'angular-mocks',
+24 verbose rebuildBundles   'angular-sanitize',
+24 verbose rebuildBundles   'angular-ui-router',
+24 verbose rebuildBundles   'browser-sync',
+24 verbose rebuildBundles   'connect-modrewrite',
+24 verbose rebuildBundles   'del',
+24 verbose rebuildBundles   'gulp',
+24 verbose rebuildBundles   'gulp-concat',
+24 verbose rebuildBundles   'gulp-csso',
+24 verbose rebuildBundles   'gulp-html-replace',
+24 verbose rebuildBundles   'gulp-if',
+24 verbose rebuildBundles   'gulp-jshint',
+24 verbose rebuildBundles   'gulp-less',
+24 verbose rebuildBundles   'gulp-ng-annotate',
+24 verbose rebuildBundles   'gulp-ng-html2js',
+24 verbose rebuildBundles   'gulp-rename',
+24 verbose rebuildBundles   'gulp-replace',
+24 verbose rebuildBundles   'gulp-sequence',
+24 verbose rebuildBundles   'gulp-sourcemaps',
+24 verbose rebuildBundles   'gulp-uglify',
+24 verbose rebuildBundles   'gulp-util',
+24 verbose rebuildBundles   'jasmine-core',
+24 verbose rebuildBundles   'jquery',
+24 verbose rebuildBundles   'jshint-stylish',
+24 verbose rebuildBundles   'karma',
+24 verbose rebuildBundles   'karma-chrome-launcher',
+24 verbose rebuildBundles   'karma-cli',
+24 verbose rebuildBundles   'karma-coverage',
+24 verbose rebuildBundles   'karma-jasmine',
+24 verbose rebuildBundles   'karma-junit-reporter',
+24 verbose rebuildBundles   'karma-ng-html2js-preprocessor',
+24 verbose rebuildBundles   'karma-phantomjs-launcher',
+24 verbose rebuildBundles   'markdown',
+24 verbose rebuildBundles   'material-design-icons',
+24 verbose rebuildBundles   'material-design-lite',
+24 verbose rebuildBundles   'merge-stream',
+24 verbose rebuildBundles   'phantomjs',
+24 verbose rebuildBundles   'roboto-fontface',
+24 verbose rebuildBundles   'serve-static',
+24 verbose rebuildBundles   'through2' ]
+25 verbose rebuild bundle /home/ehret_g/Workspace/www/quickytestjs/node_modules/angular
+26 info build /home/ehret_g/Workspace/www/quickytestjs/node_modules/angular
+27 info preinstall angular@1.4.4
+28 verbose linkStuff [ false,
+28 verbose linkStuff   false,
+28 verbose linkStuff   false,
+28 verbose linkStuff   '/home/ehret_g/Workspace/www/quickytestjs/node_modules' ]
+29 info linkStuff angular@1.4.4
+30 verbose linkBins angular@1.4.4
+31 verbose linkMans angular@1.4.4
+32 verbose rebuildBundles angular@1.4.4
+33 info install angular@1.4.4
+34 info postinstall angular@1.4.4
+35 verbose rebuild bundle /home/ehret_g/Workspace/www/quickytestjs/node_modules/angular-mocks
+36 info build /home/ehret_g/Workspace/www/quickytestjs/node_modules/angular-mocks
+37 info preinstall angular-mocks@1.4.4
+38 verbose linkStuff [ false,
+38 verbose linkStuff   false,
+38 verbose linkStuff   false,
+38 verbose linkStuff   '/home/ehret_g/Workspace/www/quickytestjs/node_modules' ]
+39 info linkStuff angular-mocks@1.4.4
+40 verbose linkBins angular-mocks@1.4.4
+41 verbose linkMans angular-mocks@1.4.4
+42 verbose rebuildBundles angular-mocks@1.4.4
+43 info install angular-mocks@1.4.4
+44 info postinstall angular-mocks@1.4.4
+45 verbose rebuild bundle /home/ehret_g/Workspace/www/quickytestjs/node_modules/angular-sanitize
+46 info build /home/ehret_g/Workspace/www/quickytestjs/node_modules/angular-sanitize
+47 info preinstall angular-sanitize@1.4.4
+48 verbose linkStuff [ false,
+48 verbose linkStuff   false,
+48 verbose linkStuff   false,
+48 verbose linkStuff   '/home/ehret_g/Workspace/www/quickytestjs/node_modules' ]
+49 info linkStuff angular-sanitize@1.4.4
+50 verbose linkBins angular-sanitize@1.4.4
+51 verbose linkMans angular-sanitize@1.4.4
+52 verbose rebuildBundles angular-sanitize@1.4.4
+53 info install angular-sanitize@1.4.4
+54 info postinstall angular-sanitize@1.4.4
+55 verbose rebuild bundle /home/ehret_g/Workspace/www/quickytestjs/node_modules/angular-ui-router
+56 info build /home/ehret_g/Workspace/www/quickytestjs/node_modules/angular-ui-router
+57 info preinstall angular-ui-router@0.2.15
+58 verbose linkStuff [ false,
+58 verbose linkStuff   false,
+58 verbose linkStuff   false,
+58 verbose linkStuff   '/home/ehret_g/Workspace/www/quickytestjs/node_modules' ]
+59 info linkStuff angular-ui-router@0.2.15
+60 verbose linkBins angular-ui-router@0.2.15
+61 verbose linkMans angular-ui-router@0.2.15
+62 verbose rebuildBundles angular-ui-router@0.2.15
+63 info install angular-ui-router@0.2.15
+64 info postinstall angular-ui-router@0.2.15
+65 verbose rebuild bundle /home/ehret_g/Workspace/www/quickytestjs/node_modules/browser-sync
+66 info build /home/ehret_g/Workspace/www/quickytestjs/node_modules/browser-sync
+67 info preinstall browser-sync@2.9.1
+68 verbose linkStuff [ false,
+68 verbose linkStuff   false,
+68 verbose linkStuff   false,
+68 verbose linkStuff   '/home/ehret_g/Workspace/www/quickytestjs/node_modules' ]
+69 info linkStuff browser-sync@2.9.1
+70 verbose linkBins browser-sync@2.9.1
+71 verbose link bins [ { 'browser-sync': 'bin/browser-sync.js' },
+71 verbose link bins   '/home/ehret_g/Workspace/www/quickytestjs/node_modules/.bin',
+71 verbose link bins   false ]
+72 verbose linkMans browser-sync@2.9.1
+73 verbose rebuildBundles browser-sync@2.9.1
+74 verbose rebuildBundles [ '.bin',
+74 verbose rebuildBundles   'anymatch',
+74 verbose rebuildBundles   'async-each-series',
+74 verbose rebuildBundles   'browser-sync-client',
+74 verbose rebuildBundles   'browser-sync-ui',
+74 verbose rebuildBundles   'chokidar',
+74 verbose rebuildBundles   'connect',
+74 verbose rebuildBundles   'dev-ip',
+74 verbose rebuildBundles   'easy-extender',
+74 verbose rebuildBundles   'eazy-logger',
+74 verbose rebuildBundles   'emitter-steward',
+74 verbose rebuildBundles   'foxy',
+74 verbose rebuildBundles   'immutable',
+74 verbose rebuildBundles   'localtunnel',
+74 verbose rebuildBundles   'lodash',
+74 verbose rebuildBundles   'longest',
+74 verbose rebuildBundles   'meow',
+74 verbose rebuildBundles   'opn',
+74 verbose rebuildBundles   'pad-left',
+74 verbose rebuildBundles   'portscanner',
+74 verbose rebuildBundles   'query-string',
+74 verbose rebuildBundles   'resp-modifier',
+74 verbose rebuildBundles   'serve-index',
+74 verbose rebuildBundles   'socket.io',
+74 verbose rebuildBundles   'ua-parser-js',
+74 verbose rebuildBundles   'ucfirst' ]
+75 info install browser-sync@2.9.1
+76 info postinstall browser-sync@2.9.1
+77 verbose rebuild bundle /home/ehret_g/Workspace/www/quickytestjs/node_modules/connect-modrewrite
+78 info build /home/ehret_g/Workspace/www/quickytestjs/node_modules/connect-modrewrite
+79 info preinstall connect-modrewrite@0.8.2
+80 verbose linkStuff [ false,
+80 verbose linkStuff   false,
+80 verbose linkStuff   false,
+80 verbose linkStuff   '/home/ehret_g/Workspace/www/quickytestjs/node_modules' ]
+81 info linkStuff connect-modrewrite@0.8.2
+82 verbose linkBins connect-modrewrite@0.8.2
+83 verbose linkMans connect-modrewrite@0.8.2
+84 verbose rebuildBundles connect-modrewrite@0.8.2
+85 verbose rebuildBundles [ 'qs' ]
+86 info install connect-modrewrite@0.8.2
+87 info postinstall connect-modrewrite@0.8.2
+88 verbose rebuild bundle /home/ehret_g/Workspace/www/quickytestjs/node_modules/del
+89 info build /home/ehret_g/Workspace/www/quickytestjs/node_modules/del
+90 info preinstall del@1.2.1
+91 verbose linkStuff [ false,
+91 verbose linkStuff   false,
+91 verbose linkStuff   false,
+91 verbose linkStuff   '/home/ehret_g/Workspace/www/quickytestjs/node_modules' ]
+92 info linkStuff del@1.2.1
+93 verbose linkBins del@1.2.1
+94 verbose linkMans del@1.2.1
+95 verbose rebuildBundles del@1.2.1
+96 verbose rebuildBundles [ '.bin',
+96 verbose rebuildBundles   'each-async',
+96 verbose rebuildBundles   'globby',
+96 verbose rebuildBundles   'is-path-cwd',
+96 verbose rebuildBundles   'is-path-in-cwd',
+96 verbose rebuildBundles   'object-assign',
+96 verbose rebuildBundles   'rimraf' ]
+97 info install del@1.2.1
+98 info postinstall del@1.2.1
+99 verbose rebuild bundle /home/ehret_g/Workspace/www/quickytestjs/node_modules/gulp
+100 info build /home/ehret_g/Workspace/www/quickytestjs/node_modules/gulp
+101 info preinstall gulp@3.9.0
+102 verbose linkStuff [ false,
+102 verbose linkStuff   false,
+102 verbose linkStuff   false,
+102 verbose linkStuff   '/home/ehret_g/Workspace/www/quickytestjs/node_modules' ]
+103 info linkStuff gulp@3.9.0
+104 verbose linkBins gulp@3.9.0
+105 verbose link bins [ { gulp: './bin/gulp.js' },
+105 verbose link bins   '/home/ehret_g/Workspace/www/quickytestjs/node_modules/.bin',
+105 verbose link bins   false ]
+106 verbose linkMans gulp@3.9.0
+107 verbose rebuildBundles gulp@3.9.0
+108 verbose rebuildBundles [ '.bin',
+108 verbose rebuildBundles   'archy',
+108 verbose rebuildBundles   'chalk',
+108 verbose rebuildBundles   'deprecated',
+108 verbose rebuildBundles   'interpret',
+108 verbose rebuildBundles   'liftoff',
+108 verbose rebuildBundles   'minimist',
+108 verbose rebuildBundles   'orchestrator',
+108 verbose rebuildBundles   'pretty-hrtime',
+108 verbose rebuildBundles   'semver',
+108 verbose rebuildBundles   'tildify',
+108 verbose rebuildBundles   'v8flags',
+108 verbose rebuildBundles   'vinyl-fs' ]
+109 info install gulp@3.9.0
+110 info postinstall gulp@3.9.0
+111 verbose rebuild bundle /home/ehret_g/Workspace/www/quickytestjs/node_modules/gulp-concat
+112 info build /home/ehret_g/Workspace/www/quickytestjs/node_modules/gulp-concat
+113 info preinstall gulp-concat@2.6.0
+114 verbose linkStuff [ false,
+114 verbose linkStuff   false,
+114 verbose linkStuff   false,
+114 verbose linkStuff   '/home/ehret_g/Workspace/www/quickytestjs/node_modules' ]
+115 info linkStuff gulp-concat@2.6.0
+116 verbose linkBins gulp-concat@2.6.0
+117 verbose linkMans gulp-concat@2.6.0
+118 verbose rebuildBundles gulp-concat@2.6.0
+119 verbose rebuildBundles [ 'concat-with-sourcemaps', 'through2' ]
+120 info install gulp-concat@2.6.0
+121 info postinstall gulp-concat@2.6.0
+122 verbose rebuild bundle /home/ehret_g/Workspace/www/quickytestjs/node_modules/gulp-csso
+123 info build /home/ehret_g/Workspace/www/quickytestjs/node_modules/gulp-csso
+124 info preinstall gulp-csso@1.0.0
+125 verbose linkStuff [ false,
+125 verbose linkStuff   false,
+125 verbose linkStuff   false,
+125 verbose linkStuff   '/home/ehret_g/Workspace/www/quickytestjs/node_modules' ]
+126 info linkStuff gulp-csso@1.0.0
+127 verbose linkBins gulp-csso@1.0.0
+128 verbose linkMans gulp-csso@1.0.0
+129 verbose rebuildBundles gulp-csso@1.0.0
+130 verbose rebuildBundles [ '.bin', 'csso' ]
+131 info install gulp-csso@1.0.0
+132 info postinstall gulp-csso@1.0.0
+133 verbose rebuild bundle /home/ehret_g/Workspace/www/quickytestjs/node_modules/gulp-html-replace
+134 info build /home/ehret_g/Workspace/www/quickytestjs/node_modules/gulp-html-replace
+135 info preinstall gulp-html-replace@1.5.1
+136 verbose linkStuff [ false,
+136 verbose linkStuff   false,
+136 verbose linkStuff   false,
+136 verbose linkStuff   '/home/ehret_g/Workspace/www/quickytestjs/node_modules' ]
+137 info linkStuff gulp-html-replace@1.5.1
+138 verbose linkBins gulp-html-replace@1.5.1
+139 verbose linkMans gulp-html-replace@1.5.1
+140 verbose rebuildBundles gulp-html-replace@1.5.1
+141 verbose rebuildBundles [ 'object-assign', 'readable-stream', 'slash' ]
+142 info install gulp-html-replace@1.5.1
+143 info postinstall gulp-html-replace@1.5.1
+144 verbose rebuild bundle /home/ehret_g/Workspace/www/quickytestjs/node_modules/gulp-if
+145 info build /home/ehret_g/Workspace/www/quickytestjs/node_modules/gulp-if
+146 info preinstall gulp-if@1.2.5
+147 verbose linkStuff [ false,
+147 verbose linkStuff   false,
+147 verbose linkStuff   false,
+147 verbose linkStuff   '/home/ehret_g/Workspace/www/quickytestjs/node_modules' ]
+148 info linkStuff gulp-if@1.2.5
+149 verbose linkBins gulp-if@1.2.5
+150 verbose linkMans gulp-if@1.2.5
+151 verbose rebuildBundles gulp-if@1.2.5
+152 verbose rebuildBundles [ 'gulp-match', 'ternary-stream', 'through2' ]
+153 info install gulp-if@1.2.5
+154 info postinstall gulp-if@1.2.5
+155 verbose rebuild bundle /home/ehret_g/Workspace/www/quickytestjs/node_modules/gulp-jshint
+156 info build /home/ehret_g/Workspace/www/quickytestjs/node_modules/gulp-jshint
+157 info preinstall gulp-jshint@1.11.2
+158 verbose linkStuff [ false,
+158 verbose linkStuff   false,
+158 verbose linkStuff   false,
+158 verbose linkStuff   '/home/ehret_g/Workspace/www/quickytestjs/node_modules' ]
+159 info linkStuff gulp-jshint@1.11.2
+160 verbose linkBins gulp-jshint@1.11.2
+161 verbose linkMans gulp-jshint@1.11.2
+162 verbose rebuildBundles gulp-jshint@1.11.2
+163 verbose rebuildBundles [ '.bin', 'jshint', 'lodash', 'minimatch', 'rcloader', 'through2' ]
+164 info install gulp-jshint@1.11.2
+165 info postinstall gulp-jshint@1.11.2
+166 verbose rebuild bundle /home/ehret_g/Workspace/www/quickytestjs/node_modules/gulp-less
+167 info build /home/ehret_g/Workspace/www/quickytestjs/node_modules/gulp-less
+168 info preinstall gulp-less@3.0.3
+169 verbose linkStuff [ false,
+169 verbose linkStuff   false,
+169 verbose linkStuff   false,
+169 verbose linkStuff   '/home/ehret_g/Workspace/www/quickytestjs/node_modules' ]
+170 info linkStuff gulp-less@3.0.3
+171 verbose linkBins gulp-less@3.0.3
+172 verbose linkMans gulp-less@3.0.3
+173 verbose rebuildBundles gulp-less@3.0.3
+174 verbose rebuildBundles [ '.bin',
+174 verbose rebuildBundles   'accord',
+174 verbose rebuildBundles   'less',
+174 verbose rebuildBundles   'object-assign',
+174 verbose rebuildBundles   'through2',
+174 verbose rebuildBundles   'vinyl-sourcemaps-apply' ]
+175 info install gulp-less@3.0.3
+176 info postinstall gulp-less@3.0.3
+177 verbose rebuild bundle /home/ehret_g/Workspace/www/quickytestjs/node_modules/gulp-ng-annotate
+178 info build /home/ehret_g/Workspace/www/quickytestjs/node_modules/gulp-ng-annotate
+179 info preinstall gulp-ng-annotate@1.1.0
+180 verbose linkStuff [ false,
+180 verbose linkStuff   false,
+180 verbose linkStuff   false,
+180 verbose linkStuff   '/home/ehret_g/Workspace/www/quickytestjs/node_modules' ]
+181 info linkStuff gulp-ng-annotate@1.1.0
+182 verbose linkBins gulp-ng-annotate@1.1.0
+183 verbose linkMans gulp-ng-annotate@1.1.0
+184 verbose rebuildBundles gulp-ng-annotate@1.1.0
+185 verbose rebuildBundles [ '.bin',
+185 verbose rebuildBundles   'bufferstreams',
+185 verbose rebuildBundles   'merge',
+185 verbose rebuildBundles   'ng-annotate',
+185 verbose rebuildBundles   'through2',
+185 verbose rebuildBundles   'vinyl-sourcemaps-apply' ]
+186 info install gulp-ng-annotate@1.1.0
+187 info postinstall gulp-ng-annotate@1.1.0
+188 verbose rebuild bundle /home/ehret_g/Workspace/www/quickytestjs/node_modules/gulp-ng-html2js
+189 info build /home/ehret_g/Workspace/www/quickytestjs/node_modules/gulp-ng-html2js
+190 info preinstall gulp-ng-html2js@0.2.0
+191 verbose linkStuff [ false,
+191 verbose linkStuff   false,
+191 verbose linkStuff   false,
+191 verbose linkStuff   '/home/ehret_g/Workspace/www/quickytestjs/node_modules' ]
+192 info linkStuff gulp-ng-html2js@0.2.0
+193 verbose linkBins gulp-ng-html2js@0.2.0
+194 verbose linkMans gulp-ng-html2js@0.2.0
+195 verbose rebuildBundles gulp-ng-html2js@0.2.0
+196 verbose rebuildBundles [ 'lodash', 'map-stream' ]
+197 info install gulp-ng-html2js@0.2.0
+198 info postinstall gulp-ng-html2js@0.2.0
+199 verbose rebuild bundle /home/ehret_g/Workspace/www/quickytestjs/node_modules/gulp-rename
+200 info build /home/ehret_g/Workspace/www/quickytestjs/node_modules/gulp-rename
+201 info preinstall gulp-rename@1.2.2
+202 verbose linkStuff [ false,
+202 verbose linkStuff   false,
+202 verbose linkStuff   false,
+202 verbose linkStuff   '/home/ehret_g/Workspace/www/quickytestjs/node_modules' ]
+203 info linkStuff gulp-rename@1.2.2
+204 verbose linkBins gulp-rename@1.2.2
+205 verbose linkMans gulp-rename@1.2.2
+206 verbose rebuildBundles gulp-rename@1.2.2
+207 info install gulp-rename@1.2.2
+208 info postinstall gulp-rename@1.2.2
+209 verbose rebuild bundle /home/ehret_g/Workspace/www/quickytestjs/node_modules/gulp-replace
+210 info build /home/ehret_g/Workspace/www/quickytestjs/node_modules/gulp-replace
+211 info preinstall gulp-replace@0.5.4
+212 verbose linkStuff [ false,
+212 verbose linkStuff   false,
+212 verbose linkStuff   false,
+212 verbose linkStuff   '/home/ehret_g/Workspace/www/quickytestjs/node_modules' ]
+213 info linkStuff gulp-replace@0.5.4
+214 verbose linkBins gulp-replace@0.5.4
+215 verbose linkMans gulp-replace@0.5.4
+216 verbose rebuildBundles gulp-replace@0.5.4
+217 verbose rebuildBundles [ 'istextorbinary', 'readable-stream', 'replacestream' ]
+218 info install gulp-replace@0.5.4
+219 info postinstall gulp-replace@0.5.4
+220 verbose rebuild bundle /home/ehret_g/Workspace/www/quickytestjs/node_modules/gulp-sequence
+221 info build /home/ehret_g/Workspace/www/quickytestjs/node_modules/gulp-sequence
+222 info preinstall gulp-sequence@0.4.1
+223 verbose linkStuff [ false,
+223 verbose linkStuff   false,
+223 verbose linkStuff   false,
+223 verbose linkStuff   '/home/ehret_g/Workspace/www/quickytestjs/node_modules' ]
+224 info linkStuff gulp-sequence@0.4.1
+225 verbose linkBins gulp-sequence@0.4.1
+226 verbose linkMans gulp-sequence@0.4.1
+227 verbose rebuildBundles gulp-sequence@0.4.1
+228 verbose rebuildBundles [ 'thunks' ]
+229 info install gulp-sequence@0.4.1
+230 info postinstall gulp-sequence@0.4.1
+231 verbose rebuild bundle /home/ehret_g/Workspace/www/quickytestjs/node_modules/gulp-sourcemaps
+232 info build /home/ehret_g/Workspace/www/quickytestjs/node_modules/gulp-sourcemaps
+233 info preinstall gulp-sourcemaps@1.5.2
+234 verbose linkStuff [ false,
+234 verbose linkStuff   false,
+234 verbose linkStuff   false,
+234 verbose linkStuff   '/home/ehret_g/Workspace/www/quickytestjs/node_modules' ]
+235 info linkStuff gulp-sourcemaps@1.5.2
+236 verbose linkBins gulp-sourcemaps@1.5.2
+237 verbose linkMans gulp-sourcemaps@1.5.2
+238 verbose rebuildBundles gulp-sourcemaps@1.5.2
+239 verbose rebuildBundles [ '.bin',
+239 verbose rebuildBundles   'convert-source-map',
+239 verbose rebuildBundles   'graceful-fs',
+239 verbose rebuildBundles   'strip-bom',
+239 verbose rebuildBundles   'through2',
+239 verbose rebuildBundles   'vinyl' ]
+240 info install gulp-sourcemaps@1.5.2
+241 info postinstall gulp-sourcemaps@1.5.2
+242 verbose rebuild bundle /home/ehret_g/Workspace/www/quickytestjs/node_modules/gulp-uglify
+243 info build /home/ehret_g/Workspace/www/quickytestjs/node_modules/gulp-uglify
+244 info preinstall gulp-uglify@1.4.0
+245 verbose linkStuff [ false,
+245 verbose linkStuff   false,
+245 verbose linkStuff   false,
+245 verbose linkStuff   '/home/ehret_g/Workspace/www/quickytestjs/node_modules' ]
+246 info linkStuff gulp-uglify@1.4.0
+247 verbose linkBins gulp-uglify@1.4.0
+248 verbose linkMans gulp-uglify@1.4.0
+249 verbose rebuildBundles gulp-uglify@1.4.0
+250 verbose rebuildBundles [ '.bin',
+250 verbose rebuildBundles   'deap',
+250 verbose rebuildBundles   'uglify-js',
+250 verbose rebuildBundles   'uglify-save-license',
+250 verbose rebuildBundles   'vinyl-sourcemaps-apply' ]
+251 info install gulp-uglify@1.4.0
+252 info postinstall gulp-uglify@1.4.0
+253 verbose rebuild bundle /home/ehret_g/Workspace/www/quickytestjs/node_modules/gulp-util
+254 info build /home/ehret_g/Workspace/www/quickytestjs/node_modules/gulp-util
+255 info preinstall gulp-util@3.0.6
+256 verbose linkStuff [ false,
+256 verbose linkStuff   false,
+256 verbose linkStuff   false,
+256 verbose linkStuff   '/home/ehret_g/Workspace/www/quickytestjs/node_modules' ]
+257 info linkStuff gulp-util@3.0.6
+258 verbose linkBins gulp-util@3.0.6
+259 verbose linkMans gulp-util@3.0.6
+260 verbose rebuildBundles gulp-util@3.0.6
+261 verbose rebuildBundles [ '.bin',
+261 verbose rebuildBundles   'array-differ',
+261 verbose rebuildBundles   'array-uniq',
+261 verbose rebuildBundles   'beeper',
+261 verbose rebuildBundles   'chalk',
+261 verbose rebuildBundles   'dateformat',
+261 verbose rebuildBundles   'lodash._reescape',
+261 verbose rebuildBundles   'lodash._reevaluate',
+261 verbose rebuildBundles   'lodash._reinterpolate',
+261 verbose rebuildBundles   'lodash.template',
+261 verbose rebuildBundles   'minimist',
+261 verbose rebuildBundles   'multipipe',
+261 verbose rebuildBundles   'object-assign',
+261 verbose rebuildBundles   'replace-ext',
+261 verbose rebuildBundles   'vinyl' ]
+262 info install gulp-util@3.0.6
+263 info postinstall gulp-util@3.0.6
+264 verbose rebuild bundle /home/ehret_g/Workspace/www/quickytestjs/node_modules/jasmine-core
+265 info build /home/ehret_g/Workspace/www/quickytestjs/node_modules/jasmine-core
+266 info preinstall jasmine-core@2.3.4
+267 verbose linkStuff [ false,
+267 verbose linkStuff   false,
+267 verbose linkStuff   false,
+267 verbose linkStuff   '/home/ehret_g/Workspace/www/quickytestjs/node_modules' ]
+268 info linkStuff jasmine-core@2.3.4
+269 verbose linkBins jasmine-core@2.3.4
+270 verbose linkMans jasmine-core@2.3.4
+271 verbose rebuildBundles jasmine-core@2.3.4
+272 info install jasmine-core@2.3.4
+273 info postinstall jasmine-core@2.3.4
+274 verbose rebuild bundle /home/ehret_g/Workspace/www/quickytestjs/node_modules/jshint-stylish
+275 info build /home/ehret_g/Workspace/www/quickytestjs/node_modules/jshint-stylish
+276 info preinstall jshint-stylish@2.0.1
+277 verbose linkStuff [ false,
+277 verbose linkStuff   false,
+277 verbose linkStuff   false,
+277 verbose linkStuff   '/home/ehret_g/Workspace/www/quickytestjs/node_modules' ]
+278 info linkStuff jshint-stylish@2.0.1
+279 verbose linkBins jshint-stylish@2.0.1
+280 verbose linkMans jshint-stylish@2.0.1
+281 verbose rebuildBundles jshint-stylish@2.0.1
+282 verbose rebuildBundles [ 'chalk', 'log-symbols', 'plur', 'string-length', 'text-table' ]
+283 info install jshint-stylish@2.0.1
+284 info postinstall jshint-stylish@2.0.1
+285 verbose rebuild bundle /home/ehret_g/Workspace/www/quickytestjs/node_modules/karma-ng-html2js-preprocessor
+286 info build /home/ehret_g/Workspace/www/quickytestjs/node_modules/karma-ng-html2js-preprocessor
+287 info preinstall karma-ng-html2js-preprocessor@0.1.2
+288 verbose linkStuff [ false,
+288 verbose linkStuff   false,
+288 verbose linkStuff   false,
+288 verbose linkStuff   '/home/ehret_g/Workspace/www/quickytestjs/node_modules' ]
+289 info linkStuff karma-ng-html2js-preprocessor@0.1.2
+290 verbose linkBins karma-ng-html2js-preprocessor@0.1.2
+291 verbose linkMans karma-ng-html2js-preprocessor@0.1.2
+292 verbose rebuildBundles karma-ng-html2js-preprocessor@0.1.2
+293 info install karma-ng-html2js-preprocessor@0.1.2
+294 info postinstall karma-ng-html2js-preprocessor@0.1.2
+295 verbose rebuild bundle /home/ehret_g/Workspace/www/quickytestjs/node_modules/markdown
+296 info build /home/ehret_g/Workspace/www/quickytestjs/node_modules/markdown
+297 info preinstall markdown@0.5.0
+298 verbose linkStuff [ false,
+298 verbose linkStuff   false,
+298 verbose linkStuff   false,
+298 verbose linkStuff   '/home/ehret_g/Workspace/www/quickytestjs/node_modules' ]
+299 info linkStuff markdown@0.5.0
+300 verbose linkBins markdown@0.5.0
+301 verbose link bins [ { md2html: './bin/md2html.js' },
+301 verbose link bins   '/home/ehret_g/Workspace/www/quickytestjs/node_modules/.bin',
+301 verbose link bins   false ]
+302 verbose linkMans markdown@0.5.0
+303 verbose rebuildBundles markdown@0.5.0
+304 verbose rebuildBundles [ '.bin', 'nopt' ]
+305 info install markdown@0.5.0
+306 info postinstall markdown@0.5.0
+307 verbose rebuild bundle /home/ehret_g/Workspace/www/quickytestjs/node_modules/material-design-icons
+308 info build /home/ehret_g/Workspace/www/quickytestjs/node_modules/material-design-icons
+309 info preinstall material-design-icons@2.0.0
+310 verbose linkStuff [ false,
+310 verbose linkStuff   false,
+310 verbose linkStuff   false,
+310 verbose linkStuff   '/home/ehret_g/Workspace/www/quickytestjs/node_modules' ]
+311 info linkStuff material-design-icons@2.0.0
+312 verbose linkBins material-design-icons@2.0.0
+313 verbose linkMans material-design-icons@2.0.0
+314 verbose rebuildBundles material-design-icons@2.0.0
+315 info install material-design-icons@2.0.0
+316 info postinstall material-design-icons@2.0.0
+317 verbose rebuild bundle /home/ehret_g/Workspace/www/quickytestjs/node_modules/material-design-lite
+318 info build /home/ehret_g/Workspace/www/quickytestjs/node_modules/material-design-lite
+319 info preinstall material-design-lite@1.0.3
+320 verbose linkStuff [ false,
+320 verbose linkStuff   false,
+320 verbose linkStuff   false,
+320 verbose linkStuff   '/home/ehret_g/Workspace/www/quickytestjs/node_modules' ]
+321 info linkStuff material-design-lite@1.0.3
+322 verbose linkBins material-design-lite@1.0.3
+323 verbose linkMans material-design-lite@1.0.3
+324 verbose rebuildBundles material-design-lite@1.0.3
+325 info install material-design-lite@1.0.3
+326 info postinstall material-design-lite@1.0.3
+327 verbose rebuild bundle /home/ehret_g/Workspace/www/quickytestjs/node_modules/merge-stream
+328 info build /home/ehret_g/Workspace/www/quickytestjs/node_modules/merge-stream
+329 info preinstall merge-stream@0.1.8
+330 verbose linkStuff [ false,
+330 verbose linkStuff   false,
+330 verbose linkStuff   false,
+330 verbose linkStuff   '/home/ehret_g/Workspace/www/quickytestjs/node_modules' ]
+331 info linkStuff merge-stream@0.1.8
+332 verbose linkBins merge-stream@0.1.8
+333 verbose linkMans merge-stream@0.1.8
+334 verbose rebuildBundles merge-stream@0.1.8
+335 verbose rebuildBundles [ 'through2' ]
+336 info install merge-stream@0.1.8
+337 info postinstall merge-stream@0.1.8
+338 verbose rebuild bundle /home/ehret_g/Workspace/www/quickytestjs/node_modules/phantomjs
+339 info build /home/ehret_g/Workspace/www/quickytestjs/node_modules/phantomjs
+340 info preinstall phantomjs@1.9.18
+341 verbose linkStuff [ false,
+341 verbose linkStuff   false,
+341 verbose linkStuff   false,
+341 verbose linkStuff   '/home/ehret_g/Workspace/www/quickytestjs/node_modules' ]
+342 info linkStuff phantomjs@1.9.18
+343 verbose linkBins phantomjs@1.9.18
+344 verbose link bins [ { phantomjs: './bin/phantomjs' },
+344 verbose link bins   '/home/ehret_g/Workspace/www/quickytestjs/node_modules/.bin',
+344 verbose link bins   false ]
+345 verbose linkMans phantomjs@1.9.18
+346 verbose rebuildBundles phantomjs@1.9.18
+347 verbose rebuildBundles [ '.bin',
+347 verbose rebuildBundles   'adm-zip',
+347 verbose rebuildBundles   'fs-extra',
+347 verbose rebuildBundles   'kew',
+347 verbose rebuildBundles   'npmconf',
+347 verbose rebuildBundles   'progress',
+347 verbose rebuildBundles   'request',
+347 verbose rebuildBundles   'request-progress',
+347 verbose rebuildBundles   'which' ]
+348 info install phantomjs@1.9.18
+349 verbose unsafe-perm in lifecycle true
+350 info phantomjs@1.9.18 Failed to exec install script
+351 error phantomjs@1.9.18 install: `node install.js`
+351 error Exit status 1
+352 error Failed at the phantomjs@1.9.18 install script.
+352 error This is most likely a problem with the phantomjs package,
+352 error not with npm itself.
+352 error Tell the author that this fails on your system:
+352 error     node install.js
+352 error You can get their info via:
+352 error     npm owner ls phantomjs
+352 error There is likely additional logging output above.
+353 error System Linux 3.19.0-27-generic
+354 error command "/home/ehret_g/.nvm/v0.10.40/bin/node" "/home/ehret_g/.nvm/v0.10.40/bin/npm" "install"
+355 error cwd /home/ehret_g/Workspace/www/quickytestjs
+356 error node -v v0.10.40
+357 error npm -v 1.4.28
+358 error code ELIFECYCLE
+359 verbose exit [ 1, true ]
