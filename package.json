@@ -9,7 +9,7 @@
     "url": "https://github.com/javamind/quickytestjs/issues"
   },
   "dependencies": {
-    "jquery": "^2.1.4"
+    "jquery": "^3.0.0"
   },
   "devDependencies": {
     "karma": "^0.13.3",
